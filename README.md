@@ -1,6 +1,6 @@
-# spatial-firebase (`firestore-h3`)
+# spatial-firebase
 
-`firestore-h3` es una librería en Go que extiende el SDK oficial de **Google Cloud Firestore** para añadir capacidades de indexación y búsqueda espacial de alto rendimiento utilizando el índice hexagonal jerárquico **H3 (Uber)**.
+`spatial-firebase` es una librería en Go que extiende el SDK oficial de **Google Cloud Firestore** para añadir capacidades de indexación y búsqueda espacial de alto rendimiento utilizando el índice hexagonal jerárquico **H3 (Uber)**.
 
 Permite realizar búsquedas por **Radio (Proximidad / KNN)** y **Polígonos (Geofencing / Point-in-Polygon)** de manera nativa sin sobrecargar el motor de Firestore ni realizar escaneos completos de colecciones.
 
@@ -19,4 +19,4 @@ Permite realizar búsquedas por **Radio (Proximidad / KNN)** y **Polígonos (Geo
 ## 📦 Instalación
 
 ```bash
-go get github.com/AlexG695/firestore-h3
+go get github.com/AlexG695/spatial-firebase
